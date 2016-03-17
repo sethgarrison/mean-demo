@@ -1,0 +1,31 @@
+{
+  "name": "MEAN_1_EXPRESS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sethgarrison/mean-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sethgarrison/mean-demo/issues"
+  },
+  "homepage": "https://github.com/sethgarrison/mean-demo#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "lodash": "^4.6.1",
+    "mongodb": "^2.1.7",
+    "mongoose": "^4.4.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.1"
+  }
+}
